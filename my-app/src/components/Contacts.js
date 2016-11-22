@@ -6,3 +6,12 @@ import {connect} from 'react-redux';
 import {getContact} from './actions';
 
 
+var Contacts = React.createClass ({
+	render: function(){
+		return (
+			<div className="contacts-container">
+				
+			</div>
+		)
+	}
+})
